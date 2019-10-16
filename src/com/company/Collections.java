@@ -2,11 +2,10 @@ package com.company;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import java.util.*;
 
-public class Collect {
+public class Collections {
+
     public static void main(String[] args) throws FileNotFoundException {
 
         Scanner in = new Scanner(new File("text"));
@@ -20,6 +19,8 @@ public class Collect {
             System.out.println("name: " + students.get(i));
         }
         in.close();
+
+
     }
 }
 
